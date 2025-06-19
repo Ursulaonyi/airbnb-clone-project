@@ -117,3 +117,18 @@
   - Protecting user accounts, sensitive data, and payments is critical for user trust and platform integrity.
 
 ---
+
+## CI/CD Pipeline
+
+- **Overview**
+  - CI/CD (Continuous Integration and Continuous Deployment) pipelines automate the software delivery process. Every code change is tested and deployed without manual intervention.
+
+- **Benefits**
+  - Ensures faster development cycles, fewer bugs in production, and improved collaboration among team members.
+
+- **Tools Used**
+  - **GitHub Actions**: Automates workflows like testing, building, and deployment.
+  - **Docker**: Ensures the same environment is used in development, testing, and production.
+
+- **Deployment Environment**
+  - **Docker**: Containerization platform for consistent deployment across environments.
