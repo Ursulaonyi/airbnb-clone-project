@@ -98,3 +98,22 @@
   - Provides an interface for admins to manage users, properties, and bookings efficiently using Django Admin.
 
 ---
+
+## API Security
+
+- **Authentication**
+  - Use of JWT or session-based authentication to verify user identity.
+
+- **Authorization**
+  - Ensures that only permitted users can access or modify certain resources (e.g., only property owners can edit their properties).
+
+- **Rate Limiting**
+  - Prevents abuse by limiting the number of API requests from a single user or IP in a given time frame.
+
+- **Input Validation & Data Sanitization**
+  - Prevents common attacks like SQL injection and XSS by cleaning all inputs.
+
+- **Importance**
+  - Protecting user accounts, sensitive data, and payments is critical for user trust and platform integrity.
+
+---
