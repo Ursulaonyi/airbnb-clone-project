@@ -76,3 +76,25 @@
 - Each **Payment** is linked to a Booking.
 
 ---
+
+## Feature Breakdown
+
+- **User Management**
+  - Allows users to sign up, log in, manage profiles, and toggle host status. Critical for authentication and user-specific operations.
+
+- **Property Management**
+  - Enables hosts to create, update, and delete listings. Provides search and filter functionality for renters.
+
+- **Booking System**
+  - Lets users book available properties with date validation and availability checks. Handles reservation logic.
+
+- **Reviews and Ratings**
+  - Users can leave feedback on stays. These ratings help maintain quality and transparency on the platform.
+
+- **Payment Processing**
+  - Handles secure transactions for bookings using background processing with Celery. Ensures financial data is handled safely.
+
+- **Admin Panel**
+  - Provides an interface for admins to manage users, properties, and bookings efficiently using Django Admin.
+
+---
